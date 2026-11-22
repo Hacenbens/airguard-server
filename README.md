@@ -102,7 +102,7 @@ No GPU needed: inference runs on the CPU.
 **1. Clone the repository**
 
 ```bash
-git clone <REPO_URL> airguard-server
+git clone https://github.com/Hacenbens/airguard-server.git
 cd airguard-server
 ```
 
