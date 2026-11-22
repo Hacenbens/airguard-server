@@ -1,0 +1,12 @@
+# AirGuard backend
+# Install torch first (CPU build, ~200 MB instead of ~2 GB with CUDA):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic-settings>=2.4
+structlog>=24.1
+ultralytics>=8.4
+
+# tests
+pytest>=8
+httpx>=0.27
